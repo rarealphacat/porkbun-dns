@@ -64,7 +64,6 @@ def main():
         # Step 1: Get current public IP
         current_ip = get_public_ip()
         print(f"Your current IP: {current_ip}")
-        logging.info(f"Your current IP: {current_ip}")
 
         # Step 2: Retrieve DNS records
         dns_records = get_dns_records()
