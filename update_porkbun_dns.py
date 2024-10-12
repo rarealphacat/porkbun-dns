@@ -7,8 +7,8 @@ API_SECRET = 'Enter your API secret key here'
 DOMAIN = ''
 
 # API Endpoints
-RETRIEVE_URL = f'https://porkbun.com/api/json/v3/dns/retrieve/{DOMAIN}'
-UPDATE_URL_TEMPLATE = f'https://porkbun.com/api/json/v3/dns/edit/{DOMAIN}/{{record_id}}'
+RETRIEVE_URL = f'https://api.porkbun.com/api/json/v3/dns/retrieve/{DOMAIN}'
+UPDATE_URL_TEMPLATE = f'https://api.porkbun.com/api/json/v3/dns/edit/{DOMAIN}/{{record_id}}'
 
 # Configure logging
 logging.basicConfig(
